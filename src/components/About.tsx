@@ -25,8 +25,16 @@ const About = () => {
           {/* Bio */}
           <Card className="mb-12 shadow-professional border-0">
             <CardContent className="p-8">
+              <p className="text-lg leading-relaxed text-foreground/90 mb-6">
+                I am a dedicated and adaptable professional with a <strong>National Diploma in Information Technology</strong> 
+                from Walter Sisulu University (2018-2020) and Matric from Gobe Commercial High School (2015). Currently 
+                upskilling through the <strong>CAPACITI Learnership</strong> (started September 17, 2025), where I've created 
+                innovative projects including AI-powered tools and mobile app prototypes.
+              </p>
               <p className="text-lg leading-relaxed text-foreground/90">
-                I am a dedicated and adaptable professional with a <strong>National Diploma in Information Technology</strong> and certifications in firefighting, first aid, and financial services. I thrive in dynamic environments and bring strong communication, problem-solving, and teamwork skills to every role. My diverse background spans customer service, education, and emergency response, demonstrating my versatility and commitment to continuous learning.
+                I thrive in dynamic environments and bring strong communication, problem-solving, and teamwork skills to every role. 
+                My diverse background spans IT development, customer service, education, emergency response, and entrepreneurship 
+                (clothing brand owner), demonstrating my versatility and commitment to continuous learning.
               </p>
             </CardContent>
           </Card>

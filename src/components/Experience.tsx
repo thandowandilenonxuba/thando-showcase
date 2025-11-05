@@ -3,14 +3,72 @@ import { Briefcase } from "lucide-react";
 
 const Experience = () => {
   const experiences = [
-    { year: "2024–2025", role: "Customer Service Call Centre Agent", company: "Shoprite Checkers Sixty60" },
-    { year: "2024", role: "Seasonal Firefighter", company: "Epping Fire Station" },
-    { year: "2023", role: "Call Centre Agent Learnership", company: "Ver-tex Solutions" },
-    { year: "2022", role: "Admin Clerk", company: "Godidi S.P.S" },
-    { year: "2021–2022", role: "Educator Assistant", company: "Godidi S.P.S" },
-    { year: "2021", role: "SGB Teacher", company: "Godidi S.P.S" },
-    { year: "2018", role: "Cashier", company: "Nomalinge Store" },
-    { year: "2015", role: "Class Representative", company: "Walter Sisulu University" },
+    { 
+      year: "Sept 2025 - Present", 
+      role: "CAPACITI Learnership - IT Skills Development", 
+      company: "CAPACITI",
+      description: "Upskilling in tech with hands-on projects including Chatbot (Zapier), Crop Guard Prototype (Figma), CVisionary AI Resume Builder, and TriGen Content Generator (Lovable)."
+    },
+    { 
+      year: "Jan - June 2025", 
+      role: "Wildland Firefighter", 
+      company: "Seasonal Contract",
+      description: "Contract expired after seasonal wildfire season."
+    },
+    { 
+      year: "2024 - 2025", 
+      role: "Customer Service Call Centre Agent", 
+      company: "Shoprite Checkers Sixty60",
+      description: "Handled customer inquiries and provided efficient service solutions."
+    },
+    { 
+      year: "Jan - June 2024", 
+      role: "Wildland Firefighter", 
+      company: "Seasonal Contract",
+      description: "Contract expired after seasonal wildfire season."
+    },
+    { 
+      year: "2023", 
+      role: "Call Centre Agent Learnership", 
+      company: "Ver-tex Solutions",
+      description: "Completed learnership program in customer service and call centre operations."
+    },
+    { 
+      year: "July - Sept 2022", 
+      role: "Admin Clerk", 
+      company: "Godidi S.P.S",
+      description: "Left due to return of original clerk from maternity leave."
+    },
+    { 
+      year: "May - Aug 2022", 
+      role: "Educator Assistant", 
+      company: "Godidi S.P.S",
+      description: "Contract expired."
+    },
+    { 
+      year: "Nov 2021 - May 2022", 
+      role: "Educator Assistant", 
+      company: "Godidi S.P.S",
+      description: "Supported teaching staff and assisted with classroom management."
+    },
+    { 
+      year: "Aug - Oct 2021", 
+      role: "SGB Teacher", 
+      company: "Godidi S.P.S",
+      description: "Taught classes as School Governing Body appointed teacher."
+    },
+    { 
+      year: "May - July 2021", 
+      role: "Cashier & Stock Management", 
+      company: "Nomalinge Store",
+      description: "Left to attend to personal issues."
+    },
+    { 
+      year: "2018", 
+      role: "Class Representative", 
+      company: "Walter Sisulu University",
+      description: "Represented student interests and facilitated communication with faculty."
+    },
   ];
 
   return (
@@ -53,7 +111,10 @@ const Experience = () => {
                         <div className="flex-1">
                           <div className="text-sm font-semibold text-primary mb-2">{exp.year}</div>
                           <h3 className="text-xl font-bold text-foreground mb-1">{exp.role}</h3>
-                          <p className="text-muted-foreground">{exp.company}</p>
+                          <p className="text-muted-foreground mb-2">{exp.company}</p>
+                          {exp.description && (
+                            <p className="text-sm text-foreground/70 mt-2">{exp.description}</p>
+                          )}
                         </div>
                       </div>
                     </CardContent>

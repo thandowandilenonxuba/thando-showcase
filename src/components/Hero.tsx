@@ -35,22 +35,25 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Name and Title */}
+          {/* Greeting and Name */}
           <div className="space-y-4">
+            <p className="text-2xl md:text-3xl text-foreground/90 font-light animate-fade-in">
+              Hi, I am
+            </p>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                 Thando Wandile Nonxuba
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground font-medium">
-              IT Professional | Customer Service Specialist | Certified Firefighter
+              IT Professional | Entrepreneur | CAPACITI Learner
             </p>
           </div>
 
           {/* Brief Introduction */}
           <p className="text-lg text-foreground/80 max-w-2xl mx-auto leading-relaxed">
-            A dedicated and adaptable professional with a National Diploma in Information Technology.
-            Bringing strong communication, problem-solving, and teamwork skills to dynamic environments.
+            A dedicated IT professional with a National Diploma in Information Technology, currently upskilling 
+            at CAPACITI. Entrepreneur, problem solver, and creative thinker bringing innovative solutions to life.
           </p>
 
           {/* CTA Buttons */}
@@ -85,7 +88,7 @@ const Hero = () => {
               <Linkedin className="h-5 w-5" />
             </a>
             <a 
-              href="https://github.com/dashboard" 
+              href="https://github.com/thandowandilenonxuba" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-12 h-12 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-all flex items-center justify-center shadow-md"

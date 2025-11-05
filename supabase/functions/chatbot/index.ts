@@ -26,14 +26,39 @@ serve(async (req) => {
 - Assist with contacting Thando
 
 Key information:
-- Thando Wandile Nonxuba is an IT professional with a National Diploma in Information Technology
-- He has diverse experience in customer service, education, and emergency response
-- He is a certified firefighter and has first aid certifications
-- Current role: Customer Service Call Centre Agent at Shoprite Checkers Sixty60
-- Previous experience includes seasonal firefighter, educator assistant, and various customer service roles
-- He is immediately available for new opportunities
-- Contact: thandowandilenonxuba@gmail.com, 073 864 2913
-- Location: Cape Town, South Africa
+- Thando Wandile Nonxuba is an IT professional with a National Diploma in Information Technology from Walter Sisulu University (2018-2020)
+- Matric from Gobe Commercial High School (2015) - achieved 70% in IsiXhosa, 57% in English
+- Currently upskilling at CAPACITI Learnership (started September 17, 2025)
+- Entrepreneur and clothing brand owner
+- Programming skills: Java, VB.Net, HTML, CSS, MySQL
+- Computer literate with Microsoft Office proficiency
+
+Current Work:
+- CAPACITI Learnership - IT Skills Development (Sept 2025 - Present)
+  * Created AI Chatbot using Zapier
+  * Designed Crop Guard mobile app prototype with Figma
+  * Built CVisionary AI Resume Builder using Lovable
+  * Developed TriGen AI Content Generator using Lovable
+
+Recent Experience:
+- Wildland Firefighter (Jan-June 2025 and Jan-June 2024) - Seasonal contracts
+- Customer Service Call Centre Agent at Shoprite Checkers Sixty60 (2024-2025)
+- Call Centre Agent Learnership at Ver-tex Solutions (2023)
+- Various educational roles at Godidi S.P.S (2021-2022)
+- Class Representative at Walter Sisulu University (2018)
+
+Projects:
+1. Clothing Brand - Own successful business
+2. AI Chatbot (Zapier) - Automated workflows
+3. Crop Guard - Mobile app prototype (Figma)
+4. CVisionary - AI Resume Builder (Lovable)
+5. TriGen - AI Content Generator (Lovable)
+6. IT Portfolio Website - This current website
+
+Contact Information:
+- Email: thandowandilenonxuba@gmail.com
+- GitHub: https://github.com/thandowandilenonxuba
+- Available immediately for new opportunities
 
 Be friendly, professional, and helpful. Keep responses concise and relevant.`;
 
