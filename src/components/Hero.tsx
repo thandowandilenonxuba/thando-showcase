@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Download, Linkedin, Github, Mail } from "lucide-react";
 import heroBackground from "@/assets/hero-bg.jpg";
+import profilePhoto from "@/assets/profile-photo-processed.jpg";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -26,10 +27,11 @@ const Hero = () => {
             <div className="relative group">
               <div className="w-48 h-48 rounded-full bg-gradient-to-br from-primary to-accent p-1 shadow-professional transition-all duration-300 group-hover:scale-105">
                 <div className="w-full h-full rounded-full bg-card flex items-center justify-center overflow-hidden">
-                  {/* Placeholder - User will replace with their photo */}
-                  <div className="w-full h-full bg-muted flex items-center justify-center text-6xl font-bold text-primary">
-                    TN
-                  </div>
+                  <img 
+                    src={profilePhoto} 
+                    alt="Thando Wandile Nonxuba" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>
