@@ -4,6 +4,7 @@ import { Award, GraduationCap } from "lucide-react";
 const Certificates = () => {
   const certificates = [
     { name: "First Aid Level 3", institution: "The First Aid Academy", type: "certification" },
+    { name: "TEFL Certificate", institution: "TEFL Certification", type: "certification" },
     { name: "Wildland Firefighter I (IFSAC Accredited)", institution: "Epping Training Centre", type: "certification" },
     { name: "NFPA 1051 Wildland Firefighter I", institution: "Fire and Rescue Service Training Academy", type: "certification" },
     { name: "BPO Skills Academy", institution: "4IR Future Skills, Financial Services Compliance, Long Term Insurance, Class of Business", type: "certification" },

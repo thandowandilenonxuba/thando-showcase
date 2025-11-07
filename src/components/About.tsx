@@ -6,7 +6,7 @@ const About = () => {
     { icon: Calendar, label: "Date of Birth", value: "22 November 1997" },
     { icon: Globe, label: "Nationality", value: "South African" },
     { icon: User, label: "Gender", value: "Male" },
-    { icon: Car, label: "Driving Licence", value: "Code 10 (C1)" },
+    { icon: Car, label: "Driving Licence", value: "Code 10 (C1) with Professional Driving Permit" },
     { icon: Languages, label: "Languages", value: "IsiXhosa (native), English (fluent)" },
     { icon: Shield, label: "Criminal Record", value: "None" },
   ];
@@ -26,7 +26,7 @@ const About = () => {
           <Card className="mb-12 shadow-professional border-0">
             <CardContent className="p-8">
               <p className="text-lg leading-relaxed text-foreground/90 mb-6">
-                I am a dedicated and adaptable professional with a <strong>National Diploma in Information Technology (majoring in Software Development)</strong> 
+                I am a dedicated and adaptable professional with a <strong>National Diploma in Information Technology (majoring in Software Development)</strong>{" "}
                 from Walter Sisulu University (2018-2020) and Matric from Gobe Commercial High School (2015). Currently 
                 upskilling through the <strong>CAPACITI Learnership</strong> (started September 17, 2025), where I've created 
                 innovative projects including AI-powered tools and mobile app prototypes.
