@@ -4,10 +4,14 @@ import { Download, FileText } from "lucide-react";
 import { toast } from "sonner";
 
 const CVSection = () => {
+  const cvPath = "/cv/thando-nonxuba-cv.pdf";
+  
   const handleDownload = () => {
-    // Placeholder - user will need to add their actual CV file
-    toast.info("Please upload your CV PDF to enable downloads");
-    // When CV is uploaded, this would link to: /cv/thando-nonxuba-cv.pdf
+    window.open(cvPath, '_blank');
+  };
+
+  const handleView = () => {
+    window.open(cvPath, '_blank');
   };
 
   return (
@@ -34,14 +38,25 @@ const CVSection = () => {
                 </p>
               </div>
 
-              <Button
-                size="lg"
-                className="bg-gradient-to-r from-primary to-accent hover:opacity-90 transition-all shadow-lg"
-                onClick={handleDownload}
-              >
-                <Download className="mr-2 h-5 w-5" />
-                Download CV (PDF)
-              </Button>
+              <div className="flex gap-4 justify-center flex-wrap">
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-primary to-accent hover:opacity-90 transition-all shadow-lg"
+                  onClick={handleView}
+                >
+                  <FileText className="mr-2 h-5 w-5" />
+                  View CV
+                </Button>
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-2"
+                  onClick={handleDownload}
+                >
+                  <Download className="mr-2 h-5 w-5" />
+                  Download CV
+                </Button>
+              </div>
 
               <p className="text-sm text-muted-foreground">
                 Last updated: January 2025
