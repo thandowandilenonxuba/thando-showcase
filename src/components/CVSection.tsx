@@ -16,7 +16,17 @@ const CVSection = () => {
   };
 
   const handleView = () => {
-    window.open(cvPath, '_blank', 'noopener,noreferrer');
+    try {
+      const newWindow = window.open(cvPath, '_blank', 'noopener,noreferrer');
+      if (!newWindow || newWindow.closed || typeof newWindow.closed === 'undefined') {
+        toast.error("Pop-up blocked. Please allow pop-ups and try again.");
+      } else {
+        toast.success("Opening CV in new tab");
+      }
+    } catch (error) {
+      console.error("Error opening CV:", error);
+      toast.error("Failed to open CV. Please try downloading instead.");
+    }
   };
 
   return (
