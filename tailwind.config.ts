@@ -80,10 +80,89 @@ export default {
             height: "0",
           },
         },
+        "bounce-in": {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(100px) scale(0.8)",
+          },
+          "50%": {
+            opacity: "1",
+            transform: "translateY(-20px) scale(1.05)",
+          },
+          "70%": {
+            transform: "translateY(10px) scale(0.98)",
+          },
+          "100%": {
+            transform: "translateY(0) scale(1)",
+          },
+        },
+        "fall-in": {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(-100px) rotate(-5deg)",
+          },
+          "60%": {
+            opacity: "1",
+            transform: "translateY(20px) rotate(2deg)",
+          },
+          "80%": {
+            transform: "translateY(-10px) rotate(-1deg)",
+          },
+          "100%": {
+            transform: "translateY(0) rotate(0deg)",
+          },
+        },
+        "slide-bounce-left": {
+          "0%": {
+            opacity: "0",
+            transform: "translateX(-100px) scale(0.9)",
+          },
+          "60%": {
+            opacity: "1",
+            transform: "translateX(15px) scale(1.02)",
+          },
+          "100%": {
+            transform: "translateX(0) scale(1)",
+          },
+        },
+        "slide-bounce-right": {
+          "0%": {
+            opacity: "0",
+            transform: "translateX(100px) scale(0.9)",
+          },
+          "60%": {
+            opacity: "1",
+            transform: "translateX(-15px) scale(1.02)",
+          },
+          "100%": {
+            transform: "translateX(0) scale(1)",
+          },
+        },
+        "elastic-in": {
+          "0%": {
+            opacity: "0",
+            transform: "scale(0) rotate(-180deg)",
+          },
+          "50%": {
+            transform: "scale(1.1) rotate(10deg)",
+          },
+          "75%": {
+            transform: "scale(0.95) rotate(-5deg)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "scale(1) rotate(0deg)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "bounce-in": "bounce-in 0.8s cubic-bezier(0.34, 1.56, 0.64, 1)",
+        "fall-in": "fall-in 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+        "slide-bounce-left": "slide-bounce-left 0.7s cubic-bezier(0.34, 1.56, 0.64, 1)",
+        "slide-bounce-right": "slide-bounce-right 0.7s cubic-bezier(0.34, 1.56, 0.64, 1)",
+        "elastic-in": "elastic-in 0.9s cubic-bezier(0.68, -0.55, 0.265, 1.55)",
       },
     },
   },
