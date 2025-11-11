@@ -16,13 +16,7 @@ const CVSection = () => {
   };
 
   const handleView = () => {
-    const link = document.createElement('a');
-    link.href = cvPath;
-    link.target = '_blank';
-    link.rel = 'noopener noreferrer';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    window.open(cvPath, '_blank', 'noopener,noreferrer');
   };
 
   return (
