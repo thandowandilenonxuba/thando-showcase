@@ -42,8 +42,10 @@ Example: If user asks "show me his experience", respond with "[NAVIGATE:experien
 
 Key information:
 - Thando Wandile Nonxuba is an IT professional with a National Diploma in Information Technology (majoring in Software Development) from Walter Sisulu University (2018-2020)
-- Physical Address: Langa, Cape Town 7455
+- Physical Address: 4492 Umnga Crescent, Langa, Cape Town 7455
 - Date of Birth: 22 November 1997
+- Email: thandowandilenonxuba@gmail.com
+- Phone: 073 864 2913
 - Matric from Gobe Commercial High School (2015) - achieved 70% in IsiXhosa, 57% in English
 - Currently upskilling at CAPACITI Learnership (started September 17, 2025)
 - Entrepreneur and clothing brand owner since 2018, collaborated with well-known personalities in South Africa: https://beezmark-dee-boison.netlify.app/
@@ -55,6 +57,7 @@ Key information:
 - Criminal Record: None
 - Nationality: South African
 - Gender: Male
+- Contact options: Direct contact form on the website, email, phone, and downloadable vCard (.vcf) with all contact information
 
 Current Work:
 - CAPACITI Learnership - IT Skills Development (Sept 2025 - Present)

@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, Download } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
 import { z } from "zod";
@@ -56,6 +56,29 @@ const Contact = () => {
     { icon: MapPin, label: "Address", value: "4492 Umnga Crescent, Langa, Cape Town, 7455", href: null },
   ];
 
+  const downloadVCard = () => {
+    const vCard = `BEGIN:VCARD
+VERSION:3.0
+FN:Thando Wandile Nonxuba
+N:Nonxuba;Thando;Wandile;;
+EMAIL;TYPE=INTERNET:thandowandilenonxuba@gmail.com
+TEL;TYPE=CELL:+27738642913
+ADR;TYPE=HOME:;;4492 Umnga Crescent;Langa;Cape Town;7455;South Africa
+BDAY:1997-11-22
+END:VCARD`;
+
+    const blob = new Blob([vCard], { type: 'text/vcard;charset=utf-8' });
+    const url = window.URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'thando-nonxuba-contact.vcf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    window.URL.revokeObjectURL(url);
+    toast.success("Contact card downloaded successfully!");
+  };
+
   return (
     <section id="contact" className="py-20 bg-background">
       <div className="container mx-auto px-4">
@@ -103,6 +126,14 @@ const Contact = () => {
                   );
                 })}
               </div>
+
+              <Button
+                onClick={downloadVCard}
+                className="w-full bg-gradient-to-r from-primary to-accent hover:opacity-90 transition-all"
+              >
+                <Download className="h-5 w-5 mr-2" />
+                Download Contact Card (vCard)
+              </Button>
             </div>
 
             {/* Contact Form */}
