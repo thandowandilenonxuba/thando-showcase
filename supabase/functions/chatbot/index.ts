@@ -77,8 +77,8 @@ Projects:
 1. Beezmark dee Boison - Clothing brand started in 2018, collaborated with well-known personalities in South Africa (https://beezmark-dee-boison.netlify.app/)
 2. AI Chatbot (Zapier) - Automated workflows
 3. Crop Guard - Mobile app prototype (Figma): https://capeitinitiative.sharepoint.com/:u:/s/CAPACITIDemand8_CPT_September2025ADS6-Group4/ETLpycvcNShHog3qS4YQCoYBRowdKCevUZGGleVemC66Bg?e=aEFXn3
-4. CVisionary - AI Resume Builder (Lovable): https://capeitinitiative.sharepoint.com/:u:/s/CAPACITIDemand8_CPT_September2025ADS6-Group4/EafGVlBZAC5BqxYwkhd55BIBnZQl-hlT7THZLl98aVarlA?e=Yk1GFC
-5. TriGen - AI Content Generator (Lovable): https://capeitinitiative.sharepoint.com/:u:/s/CAPACITIDemand8_CPT_September2025ADS6-Group4/EZT_vjDcoHBNg72Pxpotj0oBTKgwHxe98qAXiPt8Ojy1Eg?e=O2kgjv
+4. CVisionary - AI Resume Builder (Lovable): https://cvisionary.netlify.app/
+5. TriGen - AI Content Generator (Lovable): https://trigen.netlify.app/
 6. IT Portfolio Website - This current website
 
 Contact Information:

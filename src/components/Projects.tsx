@@ -33,7 +33,7 @@ const Projects = () => {
       description: "Developed an AI-powered resume generator using Lovable that creates professional CVs tailored to job requirements.",
       tools: "Lovable, AI Integration, React, TypeScript",
       outcome: "Intelligent tool for automated resume creation.",
-      link: "https://capeitinitiative.sharepoint.com/:u:/s/CAPACITIDemand8_CPT_September2025ADS6-Group4/EafGVlBZAC5BqxYwkhd55BIBnZQl-hlT7THZLl98aVarlA?e=Yk1GFC"
+      link: "https://cvisionary.netlify.app/"
     },
     {
       icon: Sparkles,
@@ -41,7 +41,7 @@ const Projects = () => {
       description: "Built a powerful content generation tool using Lovable that creates engaging marketing copy and social media content.",
       tools: "Lovable, AI Models, Content Strategy",
       outcome: "Automated content creation for multiple platforms.",
-      link: "https://capeitinitiative.sharepoint.com/:u:/s/CAPACITIDemand8_CPT_September2025ADS6-Group4/EZT_vjDcoHBNg72Pxpotj0oBTKgwHxe98qAXiPt8Ojy1Eg?e=O2kgjv"
+      link: "https://trigen.netlify.app/"
     },
     {
       icon: Code,
